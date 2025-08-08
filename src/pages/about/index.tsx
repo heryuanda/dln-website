@@ -163,7 +163,7 @@ const About = () => {
               advantages to our customers.
             </TabsContent>
             <TabsContent value="online">
-              Depo Lautan Nusantara offers an E-Invoice system that simplifies
+              Depo Lautan Nusantara offers an E-Faktur system that simplifies
               the process of obtaining VAT transaction receipts, VAT withholding
               documentation, and tax reporting. Our E-Stock system allows
               customers to monitor container inventory and track container

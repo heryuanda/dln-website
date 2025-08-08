@@ -4,7 +4,7 @@ const online = [
     description:
       "An integrated web system that allows customers to track container stock and monitor inbound/outbound movements in real time.",
     link: "https://estock.temasline.com",
-    icon: "finance_mode",
+    icon: "bar_chart_4_bars",
   },
   {
     label: "EDMS",
@@ -14,9 +14,9 @@ const online = [
     icon: "warehouse",
   },
   {
-    label: "E-Invoice",
+    label: "E-Faktur",
     description:
-      "E-Invoice service to simplify the process for customers in obtaining VAT transaction receipts, withholding documentation, and supporting records for tax reporting.",
+      "E-Faktur service to simplify the process for customers in obtaining VAT transaction receipts, withholding documentation, and supporting records for tax reporting.",
     link: "https://efaktur.temasline.com",
     icon: "demography",
   },

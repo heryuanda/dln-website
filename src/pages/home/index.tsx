@@ -12,7 +12,7 @@ import Fade from "embla-carousel-fade";
 const Home = () => {
   return (
     <div className="container mx-auto">
-      <div className="hero-section">
+      <div className="hero-section md:py-0 py-10 md:bg-white bg-accent">
         <Carousel
           className="w-full mx-auto"
           opts={{

@@ -1,4 +1,4 @@
-import { Mail, Phone } from "lucide-react";
+import { Mail, MessageCircle, Phone } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -36,6 +36,10 @@ const Footer = () => {
                 <li className="flex items-center gap-x-2">
                   <Phone />
                   <p>(+62)214606034</p>
+                </li>
+                <li className="flex items-center gap-x-2">
+                  <MessageCircle />
+                  <p>(+62)811-1450-899</p>
                 </li>
               </ul>
             </div>
