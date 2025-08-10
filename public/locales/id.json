@@ -36,7 +36,16 @@
         "online": "Depo Lautan Nusantara menyediakan sistem E-Faktur yang mempermudah proses penerbitan bukti transaksi PPN, dokumentasi pemotongan PPN, serta pelaporan pajak. Sistem E-Stock kami memungkinkan pelanggan memantau stok kontainer dan melacak pergerakan kontainer masuk dan keluar secara real-time. Selain itu, EDMS (Electronic Depot Management System) kami memberikan visibilitas yang detail terhadap aktivitas kontainer, akses ke EOR yang dilengkapi dokumentasi foto, proses persetujuan, serta pelacakan foto perbaikan. Seluruh perangkat digital ini dirancang untuk meningkatkan transparansi, efisiensi, dan kemudahan pada setiap tahap operasional pelanggan."
       }
     },
-    "ourFacilities": "Sarana dan Fasilitas"
+    "ourFacilities": "Sarana dan Fasilitas",
+    "facilities": {
+      "label": {
+        "autoGate": "Sistem Gerbang Otomatis",
+        "washing": "Area Pencucian",
+        "customer": "Area Pelanggan",
+        "depo": "37.000m<sup>2</sup> Wilayah Depo",
+        "warehouse": "7.000m<sup>2</sup> Pergudangan"
+      }
+    }
   },
   "services": {
     "ourDepotServices": "Layanan Depo Kami",

@@ -6,23 +6,23 @@ import facilities5 from "../assets/facilities/warehouse.png";
 
 const facilities = [
   {
-    label: "Auto Gate",
+    label: "about.facilities.label.autoGate",
     image: facilities1,
   },
   {
-    label: "Washing Area",
+    label: "about.facilities.label.washing",
     image: facilities2,
   },
   {
-    label: "Customer Space",
+    label: "about.facilities.label.customer",
     image: facilities3,
   },
   {
-    label: "37.000m<sup>2</sup> Area Depo",
+    label: "about.facilities.label.depo",
     image: facilities4,
   },
   {
-    label: "7.000m<sup>2</sup> Warehouse",
+    label: "about.facilities.label.warehouse",
     image: facilities5,
   },
 ];

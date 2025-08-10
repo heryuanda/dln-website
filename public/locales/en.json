@@ -36,7 +36,16 @@
         "online": "Depo Lautan Nusantara offers an E-Faktur system that simplifies the process of obtaining VAT transaction receipts, VAT withholding documentation, and tax reporting. Our E-Stock system allows customers to monitor container inventory and track container movements in and out in real-time. Additionally, our EDMS (Electronic Depot Management System) provides detailed visibility into container activities, access to EORs complete with photo documentation, approval processes, and repair photo tracking. These digital tools are designed to enhance transparency, efficiency, and convenience across every stage of customer operations."
       }
     },
-    "ourFacilities": "Our Facilities"
+    "ourFacilities": "Our Facilities",
+    "facilities": {
+      "label": {
+        "autoGate": "Auto Gate",
+        "washing": "Washing Area",
+        "customer": "Customer Space",
+        "depo": "37.000m<sup>2</sup> Area Depot",
+        "warehouse": "7.000m<sup>2</sup> Warehouse"
+      }
+    }
   },
   "services": {
     "ourDepotServices": "Our Depot Services",

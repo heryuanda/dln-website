@@ -158,7 +158,7 @@ const About = () => {
                     />
                     <p
                       className="text-center font-medium mt-2"
-                      dangerouslySetInnerHTML={{ __html: item.label }}
+                      dangerouslySetInnerHTML={{ __html: t(item.label) }}
                     ></p>
                   </div>
                 </CarouselItem>
