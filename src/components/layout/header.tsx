@@ -8,11 +8,44 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { Menu } from "lucide-react";
-import { useState } from "react";
+import {
+  DropdownMenu,
+  DropdownMenuTrigger,
+  DropdownMenuContent,
+  DropdownMenuItem,
+} from "@/components/ui/dropdown-menu";
+import { CheckIcon, Menu } from "lucide-react";
+import { useEffect, useState } from "react";
+import { Button } from "../ui/button";
+import { useTranslation } from "react-i18next";
+
+type Lang = {
+  code: string;
+  label: string;
+  logo: string;
+};
 
 const Header = () => {
   const [open, setOpen] = useState(false);
+  const { t, i18n } = useTranslation();
+  const languages = [
+    { code: "en", label: "English", logo: "/locales/en.png" },
+    { code: "id", label: "Indonesia", logo: "/locales/id.png" },
+  ];
+
+  const changeLanguage = (lng: string) => {
+    i18n.changeLanguage(lng);
+  };
+
+  const [selectedLanguage, setSelectedLanguage] = useState<Lang>();
+
+  useEffect(() => {
+    const defaultLang = localStorage.getItem("i18nextLng");
+    setSelectedLanguage(
+      languages.filter((item) => item.code === defaultLang)[0]
+    );
+  }, []);
+
   return (
     <header className="bg-white shadow-sm fixed left-0 top-0 w-full z-10">
       <div className="container mx-auto px-4 py-2">
@@ -35,44 +68,29 @@ const Header = () => {
                         className="text-gray-700 mobile-web hover:text-orange-500 transition-colors border rounded-md py-2 px-4
                         "
                       >
-                        Home
+                        {t("nav.home")}
                       </NavLink>
                       <NavLink
                         to="/about"
                         onClick={() => setOpen(false)}
                         className="text-gray-700 mobile-web hover:text-orange-500 transition-colors border rounded-md py-2 px-4"
                       >
-                        About Us
+                        {t("nav.about")}
                       </NavLink>
                       <NavLink
                         to="/services"
                         onClick={() => setOpen(false)}
                         className="text-gray-700 mobile-web hover:text-orange-500 transition-colors border rounded-md py-2 px-4"
                       >
-                        Services
+                        {t("nav.services")}
                       </NavLink>
-                      {/* <NavLink
-              to="/search"
-              className="text-gray-700 hover:text-orange-500 transition-colors"
-            >
-              Search
-            </NavLink> */}
                       <NavLink
                         to="/contact"
                         onClick={() => setOpen(false)}
                         className="text-gray-700 mobile-web hover:text-orange-500 transition-colors border rounded-md py-2 px-4"
                       >
-                        Contact Us
+                        {t("nav.contactUs")}
                       </NavLink>
-
-                      {/* Language Selector */}
-                      {/* <div className="flex items-center space-x-1">
-              <span className="bg-orange-500 text-white px-2 py-1 rounded text-sm font-medium">
-                EN
-              </span>
-              <span className="text-gray-500">/</span>
-              <span className="text-gray-700 text-sm">ID</span>
-            </div> */}
                     </nav>
                   </SheetDescription>
                 </SheetHeader>
@@ -85,44 +103,53 @@ const Header = () => {
               <img src={logo} alt="logo" className="md:h-14 h-10" />
             </NavLink>
           </div>
-
-          {/* Navigation */}
-
-          <nav className="hidden md:flex items-center space-x-8">
-            <NavLink
-              to="/about"
-              className="text-gray-700 hover:text-orange-500 transition-colors"
-            >
-              About Us
-            </NavLink>
-            <NavLink
-              to="/services"
-              className="text-gray-700 hover:text-orange-500 transition-colors"
-            >
-              Services
-            </NavLink>
-            {/* <NavLink
-              to="/search"
-              className="text-gray-700 hover:text-orange-500 transition-colors"
-            >
-              Search
-            </NavLink> */}
-            <NavLink
-              to="/contact"
-              className="text-gray-700 hover:text-orange-500 transition-colors"
-            >
-              Contact Us
-            </NavLink>
-
-            {/* Language Selector */}
-            {/* <div className="flex items-center space-x-1">
-              <span className="bg-orange-500 text-white px-2 py-1 rounded text-sm font-medium">
-                EN
-              </span>
-              <span className="text-gray-500">/</span>
-              <span className="text-gray-700 text-sm">ID</span>
-            </div> */}
-          </nav>
+          <div className="flex items-center space-x-8">
+            <nav className="hidden md:flex items-center space-x-8">
+              <NavLink
+                to="/about"
+                className="text-gray-700 hover:text-orange-500 transition-colors"
+              >
+                {t("nav.about")}
+              </NavLink>
+              <NavLink
+                to="/services"
+                className="text-gray-700 hover:text-orange-500 transition-colors"
+              >
+                {t("nav.services")}
+              </NavLink>
+              <NavLink
+                to="/contact"
+                className="text-gray-700 hover:text-orange-500 transition-colors"
+              >
+                {t("nav.contactUs")}
+              </NavLink>
+            </nav>
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button variant="outline" className="flex items-center gap-2">
+                  <span className="uppercase">{selectedLanguage?.code}</span>
+                  <img src={selectedLanguage?.logo} className="w-5" />
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end" className="w-48">
+                {languages.map((item, index) => (
+                  <DropdownMenuItem
+                    key={"lang-" + index}
+                    className="flex items-center justify-between"
+                    onClick={() => {
+                      changeLanguage(item.code);
+                      setSelectedLanguage(item);
+                    }}
+                  >
+                    <span>{item.label}</span>
+                    {selectedLanguage?.code === item.code && (
+                      <CheckIcon className="h-5 w-5" />
+                    )}
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
+          </div>
         </div>
       </div>
     </header>

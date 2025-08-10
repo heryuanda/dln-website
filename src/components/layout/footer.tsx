@@ -1,6 +1,8 @@
 import { Mail, MessageCircle, Phone } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <div className="footer">
       <div className="bg-primary-black text-white">
@@ -8,7 +10,7 @@ const Footer = () => {
           <div className="h-full flex flex-col gap-y-10 w-full md:flex-row md:gap-x-10">
             <div className="flex-1">
               <p className="text-primary-yellow font-bold mb-2 text-2xl">
-                Depot Address
+                {t("footer.depotAddress")}
               </p>
               <p>
                 Jl. Cakung Cilincing Raya KM. 2,5 No. 205-207, Cakung, Jakarta,
@@ -17,7 +19,7 @@ const Footer = () => {
             </div>
             <div className="flex-1">
               <p className="text-primary-yellow mb-2 font-bold text-2xl">
-                Office Address
+                {t("footer.officeAddress")}
               </p>
               <p>
                 Jl. Yos Sudarso Kav. 33, Sunter Jaya, Jakarta Utara, 14350,
@@ -26,7 +28,7 @@ const Footer = () => {
             </div>
             <div className="flex-1">
               <p className="text-primary-yellow mb-2 font-bold text-2xl">
-                Contacts
+                {t("footer.contact")}
               </p>
               <ul className="flex flex-col gap-y-2">
                 <li className="flex items-center gap-x-2">

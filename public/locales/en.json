@@ -1,0 +1,90 @@
+{
+  "footer": {
+    "depotAddress": "Depot Address",
+    "officeAddress": "Office Address",
+    "contact": "Contacts"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contactUs": "Contact Us",
+    "changeLang": "Change Language"
+  },
+  "about": {
+    "downloadCompro": "Discover Our Company Profile",
+    "brief": "Established in 2017 as a subsidiary of Temas Depot which has shown consistent growth since 1989. PT Depo Lautan Nusantara (DLN) leverages a strong legacy of proven management, extensive experience, and robust resources. This foundation positions DLN to deliver superior services and exceptional customer satisfaction across various industries.<br /><br />DLN specializes in comprehensive container depot services, including container handling, storage, cleaning & washing, maintenance & repair, transportation, and warehousing. Our operations adhere to stringent Health, Safety, and Environmental (HSE) standards. We also implement internationally recognized systems and best practices to ensure added value and reliability for our clients.",
+    "certification": "Our Sertification",
+    "ourDepotLocation": "Our Depot Location",
+    "depotAddress": "Jl. Cakung Cilincing Raya KM 2,5 No. 205-207, East Jakarta, Indonesia 13910",
+    "whyChooseUs": "Why Choose Us?",
+    "why": {
+      "label": {
+        "strategicLocation": "Strategic Location",
+        "security": "24/7 Security",
+        "quality": "High-Quality Standards",
+        "operation": "24 Hour Operational",
+        "warehouse": "Integrated With Warehouse",
+        "online": "Easy Online Access"
+      },
+      "content": {
+        "strategicLocation": "Depo Lautan Nusantara is strategically located within a hub of major companies and logistics centers, just 3.5 km from the nearest toll gate. This prime location ensures easy access and high operational efficiency—making it an ideal depot for storage and distribution. Our proximity to key logistics routes empowers customers to run their business seamlessly and efficiently.",
+        "security": "Our facility is secured with a 24/7 security system and CCTV cameras strategically positioned throughout key areas. This comprehensive surveillance ensures the safety of customer goods and containers, helping to prevent criminal activity and providing peace of mind in every storage operation.",
+        "quality": "Our company demonstrates a strong commitment to Health, Safety, and Environment (HSE) through the achievement of K3 and CSMS certifications, reflecting our strict adherence to workplace safety standards. In addition, the quality of our container repairs is certified by the Institute of International Container Lessors (IICL), ensuring all repair processes meet international standards.We also hold a Halal Certificate to guarantee that all goods and containers stored in our facility are handled with the highest standard of cleanliness in accordance with Halal principles. These certifications reflect our dedication to delivering safe, high-quality, and professional services in every aspect of our operations.",
+        "operation": "DLN operates 24/7 to provide unwavering support for our customers, ensuring their business runs smoothly, anytime, every day.",
+        "warehouse": "Depo Lautan Nusantara is directly integrated with a 7,000 m² warehouse facility equipped with industry-standard loading docks. We are committed to providing customizable warehouse equipment to meet our clients' specific needs.This seamless integration between depot and warehouse enables faster, more efficient, and well-organized transfer, storage, and distribution processes—ultimately delivering greater value and competitive advantages to our customers.",
+        "online": "Depo Lautan Nusantara offers an E-Faktur system that simplifies the process of obtaining VAT transaction receipts, VAT withholding documentation, and tax reporting. Our E-Stock system allows customers to monitor container inventory and track container movements in and out in real-time. Additionally, our EDMS (Electronic Depot Management System) provides detailed visibility into container activities, access to EORs complete with photo documentation, approval processes, and repair photo tracking. These digital tools are designed to enhance transparency, efficiency, and convenience across every stage of customer operations."
+      }
+    },
+    "ourFacilities": "Our Facilities"
+  },
+  "services": {
+    "ourDepotServices": "Our Depot Services",
+    "viewDetail": "View Detail",
+    "label": {
+      "storage": "Container Storage",
+      "repair": "Container Repair & Cleaning",
+      "rental": "Heavy Equipment rental",
+      "lolo": "Lift On List Off",
+      "stuffing": "Stuffing & Stripping",
+      "haulage": "Empty Container Haulage",
+      "inspection": "Container Inspection",
+      "precool": "Precool & Preset",
+      "warehouse": "Warehouse Services"
+    },
+    "content": {
+      "storage": "We have a Container Yard with a total area of 37,000 square meters, capable of accommodating approximately 7,700 TEUs of containers.",
+      "repair": "Our container repair services are supported by high-quality equipment to ensure speed and optimal results in accordance with IICL standards. Similarly, our cleaning services are equipped with high-pressure water pumps and premium-grade soap to guarantee container cleanliness and meet Halal certification standards, ensuring safe use for all customers.",
+      "rental": "We provide heavy equipment rental services with relatively new units, combined with regular maintenance to ensure the equipment remains in optimal condition.",
+      "lolo": "We provide Lift On/Lift Off services for loading and unloading containers from truck chassis, supported by complete and high-quality equipment.",
+      "stuffing": "We are open to all customers who require services for loading or unloading goods from containers. The stuffing and stripping processes are supported by well-maintained forklifts and professional manpower.",
+      "haulage": "We provide empty container transportation services using a modern fleet, supported by regular vehicle maintenance and qualified drivers to ensure both the vehicle and cargo remain in optimal condition throughout the journey.",
+      "inspection": "Every container entering DLN undergoes an inspection based on IICL (Institute of International Container Lessors) standards to ensure it meets the quality requirements for customer use.",
+      "precool": "Before being used for export, Reefer Containers can be inspected at DLN to ensure they reach the targeted temperature, handled by experienced personnel. We also provide 20 plugging stations available for use with reefer containers.",
+      "warehouse": "DLN is integrated with a 7,000-square-meter warehouse equipped with standard-compliant loading docks. DLN is fully committed and flexible in providing warehouse equipment tailored to meet customer needs."
+    },
+    "online": "Our Depot Online Services",
+    "eStock": {
+      "label": "E-Stock",
+      "content": "An integrated web system that allows customers to track container stock and monitor inbound/outbound movements in real time."
+    },
+    "edms": {
+      "label": "EDMS",
+      "content": "An integrated web-based system where customers can track detailed container movements, review the Estimate of Repair (EOR) complete with photo documentation, and perform online approval processes seamlessly."
+    },
+    "eFaktur": {
+      "label": "E-Faktur",
+      "content": "E-Faktur service to simplify the process for customers in obtaining VAT transaction receipts, withholding documentation, and supporting records for tax reporting."
+    },
+    "visitHere": "Visit Here"
+  },
+  "contact": {
+    "label": "Contact Us",
+    "caption": "We're here to help! Reach out to us with any questions, feedback, or inquiries you may have about our services.",
+    "callUs": "Call Us",
+    "emailUs": "Email Us",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email"
+  }
+}

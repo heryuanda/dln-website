@@ -1,0 +1,90 @@
+{
+  "footer": {
+    "depotAddress": "Alamat Depo",
+    "officeAddress": "Alamat Kantor",
+    "contact": "Kontak"
+  },
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "services": "Layanan",
+    "contactUs": "Hubungi Kami",
+    "changeLang": "Ganti Bahasa"
+  },
+  "about": {
+    "downloadCompro": "Profil Perusahaan Kami",
+    "brief": "Didirikan pada tahun 2017 sebagai anak perusahaan dari Temas Depot yang telah menunjukkan pertumbuhan secara konsisten sejak tahun 1989, PT Depo Lautan Nusantara (DLN) memanfaatkan warisan manajemen yang telah terbukti, pengalaman yang luas, serta sumber daya yang andal. Landasan ini menempatkan DLN pada posisi yang kuat untuk memberikan layanan unggulan serta kepuasan pelanggan yang istimewa di berbagai sektor industri.<br/><br/>DLN berfokus pada penyediaan layanan depo kontainer secara menyeluruh, mencakup penanganan kontainer, penyimpanan, pembersihan dan pencucian, perawatan serta perbaikan, transportasi, dan pergudangan. Seluruh operasional kami dijalankan dengan mematuhi standar Kesehatan, Keselamatan, dan Lingkungan (HSE) yang ketat, serta menerapkan sistem dan praktik terbaik yang diakui secara internasional untuk memastikan nilai tambah dan keandalan bagi para pelanggan kami.",
+    "certification": "Sertifikasi Perusahaan",
+    "ourDepotLocation": "Lokasi Depo",
+    "depotAddress": "Jl. Cakung Cilincing Raya KM 2,5 No. 205-207, Jakarta Timur, Indonesia 13910",
+    "whyChooseUs": "Keunggulan Kami",
+    "why": {
+      "label": {
+        "strategicLocation": "Lokasi Stretegis",
+        "security": "Keamanan 24/7",
+        "quality": "Standar Mutu Tinggi",
+        "operation": "Layanan Operasional 24 Jam",
+        "warehouse": "Terintegrasi dengan Fasilitas Gudang",
+        "online": "Akses Online yang Mudah"
+      },
+      "content": {
+        "strategicLocation": "Depo Lautan Nusantara berlokasi strategis di pusat kawasan perusahaan besar dan pusat logistik, hanya berjarak 3,5 km dari gerbang tol terdekat. Lokasi utama ini memastikan kemudahan akses serta efisiensi operasional yang tinggi menjadikannya depo ideal untuk penyimpanan dan distribusi. Kedekatan kami dengan jalur logistik utama memberikan kemudahan bagi pelanggan untuk menjalankan bisnis mereka secara lancar dan efisien.",
+        "security": "Fasilitas kami dilengkapi dengan sistem keamanan 24 jam penuh serta kamera CCTV yang ditempatkan secara strategis di seluruh area penting. Pengawasan menyeluruh ini memastikan keamanan barang dan kontainer milik pelanggan, membantu mencegah tindakan kriminal, serta memberikan ketenangan pikiran dalam setiap aktivitas penyimpanan.",
+        "quality": "Perusahaan kami menunjukkan komitmen yang kuat terhadap Kesehatan, Keselamatan, dan Lingkungan (HSE) melalui pencapaian sertifikasi K3 dan CSMS, yang mencerminkan kepatuhan kami terhadap standar keselamatan kerja yang ketat. Selain itu, kualitas perbaikan kontainer kami telah tersertifikasi oleh Institute of International Container Lessors (IICL), memastikan seluruh proses perbaikan memenuhi standar internasional. Kami juga memiliki Sertifikat Halal untuk menjamin bahwa seluruh barang dan kontainer yang disimpan di fasilitas kami ditangani dengan standar kebersihan tertinggi sesuai prinsip Halal. Berbagai sertifikasi ini mencerminkan dedikasi kami dalam memberikan layanan yang aman, berkualitas tinggi, dan profesional di setiap aspek operasional.",
+        "operation": "DLN beroperasi selama 24 jam setiap hari untuk memberikan dukungan tanpa henti kepada pelanggan, memastikan kelancaran operasional bisnis mereka kapan saja, setiap hari.",
+        "warehouse": "Depo Lautan Nusantara terintegrasi langsung dengan fasilitas gudang seluas 7.000 m² yang dilengkapi dengan loading dock berstandar industri. Kami berkomitmen menyediakan peralatan gudang yang dapat disesuaikan untuk memenuhi kebutuhan spesifik setiap pelanggan.Integrasi tanpa hambatan antara depo dan gudang ini memungkinkan proses pemindahan, penyimpanan, dan distribusi yang lebih cepat, efisien, serta terorganisir dengan baik—pada akhirnya memberikan nilai tambah dan keunggulan kompetitif bagi pelanggan kami.",
+        "online": "Depo Lautan Nusantara menyediakan sistem E-Faktur yang mempermudah proses penerbitan bukti transaksi PPN, dokumentasi pemotongan PPN, serta pelaporan pajak. Sistem E-Stock kami memungkinkan pelanggan memantau stok kontainer dan melacak pergerakan kontainer masuk dan keluar secara real-time. Selain itu, EDMS (Electronic Depot Management System) kami memberikan visibilitas yang detail terhadap aktivitas kontainer, akses ke EOR yang dilengkapi dokumentasi foto, proses persetujuan, serta pelacakan foto perbaikan. Seluruh perangkat digital ini dirancang untuk meningkatkan transparansi, efisiensi, dan kemudahan pada setiap tahap operasional pelanggan."
+      }
+    },
+    "ourFacilities": "Sarana dan Fasilitas"
+  },
+  "services": {
+    "ourDepotServices": "Layanan Depo Kami",
+    "viewDetail": "Selengkapnya",
+    "label": {
+      "storage": "Penyimpanan Kontainer",
+      "repair": "Perbaikan & Pembersihan Kontainer",
+      "rental": "Sewa Alat Berat",
+      "lolo": "Layanan Lift On Lift Off",
+      "stuffing": "Stuffing & Stripping",
+      "haulage": "Pengangkutan Kontainer Kosong",
+      "inspection": "Pemeriksaan Kontainer",
+      "precool": "Layanan Precool & Preset",
+      "warehouse": "Layanan Pergudangan"
+    },
+    "content": {
+      "storage": "Kami memiliki Container Yard dengan luas total 37.000 meter persegi, yang mampu menampung sekitar 7.700 TEUs kontainer.",
+      "repair": "Layanan perbaikan kontainer kami didukung oleh peralatan berkualitas tinggi untuk memastikan kecepatan kerja dan hasil optimal sesuai standar IICL. Demikian pula, layanan pembersihan kami dilengkapi dengan pompa air bertekanan tinggi dan sabun berkualitas premium untuk menjamin kebersihan kontainer serta memenuhi standar sertifikasi Halal, sehingga aman digunakan oleh seluruh pelanggan.",
+      "rental": "Kami menyediakan layanan penyewaan alat berat dengan unit yang relatif baru, dipadukan dengan perawatan rutin untuk memastikan peralatan tetap dalam kondisi optimal.",
+      "lolo": "Kami menyediakan layanan Lift On/Lift Off untuk kegiatan bongkar muat kontainer dari truck chassis, yang didukung oleh peralatan lengkap dan berkualitas tinggi.",
+      "stuffing": "Kami terbuka untuk melayani seluruh pelanggan yang membutuhkan jasa bongkar muat barang dari kontainer. Proses stuffing dan stripping didukung oleh forklift yang terawat dengan baik serta tenaga kerja profesional.",
+      "haulage": "Kami menyediakan layanan pengangkutan kontainer kosong dengan armada modern, didukung oleh perawatan kendaraan secara rutin serta pengemudi yang berkualifikasi, untuk memastikan kendaraan dan muatan tetap dalam kondisi optimal sepanjang perjalanan.",
+      "inspection": "Setiap kontainer yang masuk ke DLN menjalani proses inspeksi berdasarkan standar IICL (Institute of International Container Lessors) untuk memastikan kontainer tersebut memenuhi persyaratan kualitas sebelum digunakan oleh pelanggan.",
+      "precool": "Sebelum digunakan untuk keperluan ekspor, Reefer Container dapat diperiksa di DLN untuk memastikan suhu telah mencapai target, yang ditangani oleh tenaga berpengalaman. Kami juga menyediakan 20 titik plugging yang siap digunakan untuk Reefer Container.",
+      "warehouse": "DLN terintegrasi dengan gudang seluas 7.000 meter persegi yang dilengkapi dengan loading dock sesuai standar. DLN berkomitmen penuh serta fleksibel dalam menyediakan peralatan gudang yang disesuaikan untuk memenuhi kebutuhan pelanggan."
+    },
+    "online": "Layanan Daring Depo Kami",
+    "eStock": {
+      "label": "E-Stock",
+      "content": "Sistem web terintegrasi yang memungkinkan pelanggan melacak stok kontainer serta memantau pergerakan masuk dan keluar secara real-time."
+    },
+    "edms": {
+      "label": "EDMS",
+      "content": "Sistem berbasis web terintegrasi yang memungkinkan pelanggan melacak pergerakan kontainer secara detail, meninjau Estimate of Repair (EOR) lengkap dengan dokumentasi foto, serta melakukan proses persetujuan secara daring dengan mudah dan lancar."
+    },
+    "eFaktur": {
+      "label": "E-Faktur",
+      "content": "Layanan E-Faktur untuk mempermudah proses bagi pelanggan dalam memperoleh bukti transaksi PPN, dokumentasi pemotongan, serta dokumen pendukung untuk pelaporan pajak."
+    },
+    "visitHere": "Kunjungi"
+  },
+  "contact": {
+    "label": "Hubungi Kami",
+    "caption": "Kami siap membantu Anda! Silakan hubungi kami untuk pertanyaan, masukan, atau permintaan informasi terkait layanan kami.",
+    "callUs": "Hubungi Kami",
+    "emailUs": "Email Kami",
+    "address": "Alamat",
+    "phone": "No Telepon",
+    "email": "Email"
+  }
+}
