@@ -22,7 +22,7 @@ const About = () => {
   return (
     <div className="container mx-auto py-8">
       <div className="flex justify-end md:flex-row flex-col gap-y-8">
-        <div className="pl-4 text-left mr-8 pt-2 w-fit md:text-right">
+        <div className="pl-4 text-left mr-8 pt-2 w-fit md:text-right 2xl:w-[30%]">
           <p className="text-left md:text-right text-5xl font-bold text-primary-blue mb-4">
             Depo
             <br />
@@ -34,7 +34,7 @@ const About = () => {
             {t("about.downloadCompro")}
           </Button>
         </div>
-        <div className="pt-2 md:max-w-[30%] md:px-0 px-4">
+        <div className="pt-2 md:max-w-[30%] 2xl:max-w-[40%] md:px-0 px-4">
           <p
             className="text-sm mb-2"
             dangerouslySetInnerHTML={{ __html: t("about.brief") }}
@@ -60,7 +60,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="">
+        <div className="flex justify-end items-end">
           <img src={aboutHero} alt="about-hero" />
         </div>
       </div>
@@ -154,7 +154,7 @@ const About = () => {
                     <img
                       src={item.image}
                       alt="image-carousel"
-                      className="w-full"
+                      className="w-full rounded-md"
                     />
                     <p
                       className="text-center font-medium mt-2"

@@ -37,7 +37,7 @@ const Footer = () => {
                 </li>
                 <li className="flex items-center gap-x-2">
                   <Phone />
-                  <p>(+62)214606034</p>
+                  <p>(+62-21)4606034</p>
                 </li>
                 <li className="flex items-center gap-x-2">
                   <MessageCircle />

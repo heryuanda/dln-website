@@ -15,7 +15,7 @@ const Contact = () => {
     {
       title: "contact.phone",
       icon: <Phone className="h-6 w-6" />,
-      details: ["(+62)214606034"],
+      details: ["(+62-21)4606034"],
     },
     {
       title: "contact.email",

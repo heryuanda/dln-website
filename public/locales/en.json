@@ -13,7 +13,7 @@
   },
   "about": {
     "downloadCompro": "Discover Our Company Profile",
-    "brief": "Established in 2017 as a subsidiary of Temas Depot which has shown consistent growth since 1989. PT Depo Lautan Nusantara (DLN) leverages a strong legacy of proven management, extensive experience, and robust resources. This foundation positions DLN to deliver superior services and exceptional customer satisfaction across various industries.<br /><br />DLN specializes in comprehensive container depot services, including container handling, storage, cleaning & washing, maintenance & repair, transportation, and warehousing. Our operations adhere to stringent Health, Safety, and Environmental (HSE) standards. We also implement internationally recognized systems and best practices to ensure added value and reliability for our clients.",
+    "brief": "Established in 2017 as a subsidiary of Temas Depot which has shown consistent growth since 1989. PT Depo Lautan Nusantara (DLN) leverages a strong legacy of proven management, extensive experience, and robust resources. This foundation positions DLN to deliver superior services and exceptional customer satisfaction across various industries.<br /><br />DLN specializes in comprehensive container depot services, including container handling, storage, cleaning, maintenance & repair, trucking, and warehousing. Our operations adhere to stringent Health, Safety, and Environmental (HSE) standards. We also implement internationally recognized systems and best practices to ensure added value and reliability for our clients.",
     "certification": "Our Sertification",
     "ourDepotLocation": "Our Depot Location",
     "depotAddress": "Jl. Cakung Cilincing Raya KM 2,5 No. 205-207, East Jakarta, Indonesia 13910",
@@ -53,8 +53,8 @@
     "label": {
       "storage": "Container Storage",
       "repair": "Container Repair & Cleaning",
-      "rental": "Heavy Equipment rental",
-      "lolo": "Lift On List Off",
+      "rental": "Heavy Equipment Rental",
+      "lolo": "Lift On Lift Off",
       "stuffing": "Stuffing & Stripping",
       "haulage": "Empty Container Haulage",
       "inspection": "Container Inspection",
@@ -84,6 +84,14 @@
     "eFaktur": {
       "label": "E-Faktur",
       "content": "E-Faktur service to simplify the process for customers in obtaining VAT transaction receipts, withholding documentation, and supporting records for tax reporting."
+    },
+    "eEir": {
+      "label": "E-EIR",
+      "content": "A digital platform to make it easier for customers to independently access and download the Equipment Interchange Receipt (EIR). This service is intended to improve the efficiency of administrative processes at the depot and to provide convenience and transparency for customers in obtaining EIR documents anytime and anywhere."
+    },
+    "eSearching": {
+      "label": "E-Searching",
+      "content": "A digital platform to make it easier for customers to track container movements at the depot. Through this site, users can monitor the inbound and outbound status of containers in real time based on truck number, container number, BL number, or depot location."
     },
     "visitHere": "Visit Here"
   },

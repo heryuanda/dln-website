@@ -13,7 +13,7 @@
   },
   "about": {
     "downloadCompro": "Profil Perusahaan Kami",
-    "brief": "Didirikan pada tahun 2017 sebagai anak perusahaan dari Temas Depot yang telah menunjukkan pertumbuhan secara konsisten sejak tahun 1989, PT Depo Lautan Nusantara (DLN) memanfaatkan warisan manajemen yang telah terbukti, pengalaman yang luas, serta sumber daya yang andal. Landasan ini menempatkan DLN pada posisi yang kuat untuk memberikan layanan unggulan serta kepuasan pelanggan yang istimewa di berbagai sektor industri.<br/><br/>DLN berfokus pada penyediaan layanan depo kontainer secara menyeluruh, mencakup penanganan kontainer, penyimpanan, pembersihan dan pencucian, perawatan serta perbaikan, transportasi, dan pergudangan. Seluruh operasional kami dijalankan dengan mematuhi standar Kesehatan, Keselamatan, dan Lingkungan (HSE) yang ketat, serta menerapkan sistem dan praktik terbaik yang diakui secara internasional untuk memastikan nilai tambah dan keandalan bagi para pelanggan kami.",
+    "brief": "Didirikan pada tahun 2017 sebagai anak perusahaan dari Temas Depot yang telah menunjukkan pertumbuhan secara konsisten sejak tahun 1989, PT Depo Lautan Nusantara (DLN) memanfaatkan warisan manajemen yang telah terbukti, pengalaman yang luas, serta sumber daya yang andal. Landasan ini menempatkan DLN pada posisi yang kuat untuk memberikan layanan unggulan serta kepuasan pelanggan yang istimewa di berbagai sektor industri.<br/><br/>DLN berfokus pada penyediaan layanan depo kontainer secara menyeluruh, mencakup penanganan kontainer, penyimpanan, pembersihan, perawatan serta perbaikan, pengangkutan truk, dan pergudangan. Seluruh operasional kami dijalankan dengan mematuhi standar Kesehatan, Keselamatan, dan Lingkungan (HSE) yang ketat, serta menerapkan sistem dan praktik terbaik yang diakui secara internasional untuk memastikan nilai tambah dan keandalan bagi para pelanggan kami.",
     "certification": "Sertifikasi Perusahaan",
     "ourDepotLocation": "Lokasi Depo",
     "depotAddress": "Jl. Cakung Cilincing Raya KM 2,5 No. 205-207, Jakarta Timur, Indonesia 13910",
@@ -84,6 +84,14 @@
     "eFaktur": {
       "label": "E-Faktur",
       "content": "Layanan E-Faktur untuk mempermudah proses bagi pelanggan dalam memperoleh bukti transaksi PPN, dokumentasi pemotongan, serta dokumen pendukung untuk pelaporan pajak."
+    },
+    "eEir": {
+      "label": "E-EIR",
+      "content": "Platform digital untuk memudahkan pelanggan dalam mengakses dan mengunduh Equipment Interchange Receipt (EIR) secara mandiri. Layanan ini ditujukan untuk meningkatkan efisiensi proses administrasi di depo serta memberikan kemudahan dan transparansi bagi pelanggan dalam memperoleh dokumen EIR kapan saja dan di mana saja."
+    },
+    "eSearching": {
+      "label": "E-Searching",
+      "content": "Platform digital untuk memudahkan pelanggan dalam melakukan pelacakan pergerakan kontainer di depo. Melalui situs ini, pengguna dapat memantau status keluar masuk kontainer berdasarkan nomor truk, nomor kontainer, nomor BL, atau lokasi depo secara real-time."
     },
     "visitHere": "Kunjungi"
   },

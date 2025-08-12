@@ -21,19 +21,19 @@ const Services = () => {
   const [open, setOpen] = useState(false);
   const [selectedService, setSelectedService] = useState<Service>(services[0]);
   return (
-    <div className="container mx-auto py-16">
-      <div className="max-w-[90%] mx-auto">
+    <div className="container mx-auto md:py-16 py-10">
+      <div className="max-w-[100%] mx-auto md:px-8 px-4">
         <p className=" font-bold md:text-5xl text-3xl text-center text-primary-blue mb-8 md:mb-16">
           {t("services.ourDepotServices")}
         </p>
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-3 2xl:grid-cols-4">
           {services.map((item, index) => (
             <div
               key={"service-" + index}
               className="rounded-md p-6 bg-white shadow-xl hover:scale-105 transition-all border border-neutral-200"
             >
               <img src={item.image} className="w-full" />
-              <div className="flex w-full justify-between mt-4 gap-x-2">
+              <div className="flex w-full justify-between mt-4 gap-x-2 items-center md:items-start">
                 <p className="font-medium">{t(item.label)}</p>
                 <Button
                   size={"sm"}
@@ -53,26 +53,31 @@ const Services = () => {
           <p className=" font-bold md:text-5xl text-3xl text-center text-primary-blue mb-16">
             {t("services.online")}
           </p>
-          <div className="grid md:grid-cols-3 grid-cols-1 gap-x-10">
+          <div className="grid md:grid-cols-3 grid-cols-1 gap-8">
             {online.map((item, index) => (
               <div
                 key={"online-" + index}
-                className="relative flex flex-col justify-between gap-y-4 border-l-4 border-l-primary-orange py-4 px-6 "
+                className="relative flex flex-col justify-between bg-primary-orange/5 border border-primary-orange/50 p-6 rounded-md"
               >
                 <div className="">
-                  <p className="font-bold text-2xl mb-2">{t(item.label)}</p>
+                  <div className="flex items-center justify-between mb-4 gap-x-2">
+                    <div className="flex items-center gap-x-3">
+                      <item.icon
+                        className="text-primary-orange/100"
+                        size={32}
+                      />
+
+                      <p className="font-bold text-2xl">{t(item.label)}</p>
+                    </div>
+                    <Button asChild className="bg-primary-orange">
+                      <a href={item.link} target="_blank">
+                        {t("services.visitHere")}
+                      </a>
+                    </Button>
+                  </div>
                   <p className="text-neutral-600">{t(item.description)}</p>
                 </div>
-                <div className="flex w-full justify-between items-center gap-x-2">
-                  <span className="material-symbols-outlined !text-[60px] text-primary-orange/40">
-                    {item.icon}
-                  </span>
-                  <Button asChild className="bg-primary-orange">
-                    <a href={item.link} target="_blank">
-                      {t("services.visitHere")}
-                    </a>
-                  </Button>
-                </div>
+                <div className="flex w-full justify-between items-center gap-x-2"></div>
               </div>
             ))}
           </div>
