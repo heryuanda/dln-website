@@ -51,7 +51,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="container mt-20 px-4">
+      <div className="container mt-20 mb-20 px-4">
         <div className="grid gap-8 grid-cols-1 md:grid-cols-3">
           {contactCards.map((card, index) => (
             <div
