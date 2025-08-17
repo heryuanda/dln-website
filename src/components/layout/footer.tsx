@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="h-full flex flex-col gap-y-10 w-full md:flex-row md:gap-x-10">
             <div className="flex-1">
-              <p className="text-primary-yellow font-bold mb-2 text-2xl">
+              <p className="text-primary-yellow font-bold mb-2 text-xl">
                 {t("footer.depotAddress")}
               </p>
               <p>
@@ -18,7 +18,7 @@ const Footer = () => {
               </p>
             </div>
             <div className="flex-1">
-              <p className="text-primary-yellow mb-2 font-bold text-2xl">
+              <p className="text-primary-yellow mb-2 font-bold text-xl">
                 {t("footer.officeAddress")}
               </p>
               <p>
@@ -27,7 +27,7 @@ const Footer = () => {
               </p>
             </div>
             <div className="flex-1">
-              <p className="text-primary-yellow mb-2 font-bold text-2xl">
+              <p className="text-primary-yellow mb-2 font-bold text-xl">
                 {t("footer.contact")}
               </p>
               <div className="flex md:flex-row flex-col gap-y-2 gap-x-2">
