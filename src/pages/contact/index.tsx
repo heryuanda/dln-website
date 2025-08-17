@@ -27,7 +27,7 @@ const Contact = () => {
   const { t } = useTranslation();
   return (
     <section className="relative py-12 md:py-16 bg-slate-50">
-      <div className="container px-4">
+      <div className="container px-4 mx-auto">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight mb-4">
             {t("contact.label")}
@@ -51,7 +51,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="container mt-20 mb-20 px-4">
+      <div className="container mt-20 mb-20 px-4 mx-auto">
         <div className="grid gap-8 grid-cols-1 md:grid-cols-3">
           {contactCards.map((card, index) => (
             <div

@@ -26,13 +26,13 @@ const Services = () => {
         <p className=" font-bold md:text-5xl text-3xl text-center text-primary-blue mb-8 md:mb-16">
           {t("services.ourDepotServices")}
         </p>
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3 2xl:grid-cols-4">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 md:grid-cols-2 2xl:grid-cols-4 sm:grid-cols-2">
           {services.map((item, index) => (
             <div
               key={"service-" + index}
               className="rounded-md p-6 bg-white shadow-xl hover:scale-105 transition-all border border-neutral-200"
             >
-              <img src={item.image} className="w-full" />
+              <img src={item.image} className="w-full rounded-lg" />
               <div className="flex w-full justify-between mt-4 gap-x-2 items-center md:items-start">
                 <p className="font-medium">{t(item.label)}</p>
                 <Button
@@ -53,7 +53,7 @@ const Services = () => {
           <p className=" font-bold md:text-5xl text-3xl text-center text-primary-blue mb-16">
             {t("services.online")}
           </p>
-          <div className="grid md:grid-cols-3 grid-cols-1 gap-8">
+          <div className="grid 2xl:grid-cols-3 xl:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-8">
             {online.map((item, index) => (
               <div
                 key={"online-" + index}
@@ -67,7 +67,9 @@ const Services = () => {
                         size={32}
                       />
 
-                      <p className="font-bold text-2xl">{t(item.label)}</p>
+                      <p className="font-bold text-2xl xs:text-2xl whitespace-nowrap">
+                        {t(item.label)}
+                      </p>
                     </div>
                     <Button asChild className="bg-primary-orange">
                       <a href={item.link} target="_blank">

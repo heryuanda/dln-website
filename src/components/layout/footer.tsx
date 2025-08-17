@@ -4,9 +4,9 @@ import { useTranslation } from "react-i18next";
 const Footer = () => {
   const { t } = useTranslation();
   return (
-    <div className="footer">
+    <div className="footer text-sm">
       <div className="bg-primary-black text-white">
-        <div className="container mx-auto px-4 py-10">
+        <div className="container mx-auto px-4 py-6">
           <div className="h-full flex flex-col gap-y-10 w-full md:flex-row md:gap-x-10">
             <div className="flex-1">
               <p className="text-primary-yellow font-bold mb-2 text-2xl">
@@ -30,20 +30,24 @@ const Footer = () => {
               <p className="text-primary-yellow mb-2 font-bold text-2xl">
                 {t("footer.contact")}
               </p>
-              <ul className="flex flex-col gap-y-2">
-                <li className="flex items-center gap-x-2">
-                  <Mail />
-                  <p>jktequ@lanus.co.id</p>
-                </li>
-                <li className="flex items-center gap-x-2">
-                  <Phone />
-                  <p>(+62-21)4606034</p>
-                </li>
-                <li className="flex items-center gap-x-2">
-                  <MessageCircle />
-                  <p>(+62)811-1450-899</p>
-                </li>
-              </ul>
+              <div className="flex md:flex-row flex-col gap-y-2 gap-x-2">
+                <div className="flex flex-1 flex-col gap-y-2">
+                  <div className="flex items-center gap-x-2">
+                    <Mail size={16} />
+                    <p>jktequ@lanus.co.id</p>
+                  </div>
+                  <div className="flex items-center gap-x-2">
+                    <Phone size={16} />
+                    <p>(+62-21)4606034</p>
+                  </div>
+                </div>
+                <div className="flex flex-1 flex-col gap-y-2">
+                  <div className="flex items-center gap-x-2">
+                    <MessageCircle size={16} />
+                    <p>(+62)811-1450-899</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
